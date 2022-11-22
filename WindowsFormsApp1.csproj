@@ -1,0 +1,322 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{3919CECA-CE3A-46B0-9084-F8EE3BDBE97A}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>WindowsFormsApp1</RootNamespace>
+    <AssemblyName>WindowsFormsApp1</AssemblyName>
+    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <Deterministic>true</Deterministic>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Microsoft.ReportViewer.WinForms, Version=15.0.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91, processorArchitecture=MSIL">
+      <HintPath>packages\Microsoft.ReportingServices.ReportViewerControl.Winforms.150.1484.0\lib\net40\Microsoft.ReportViewer.WinForms.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.SqlServer.Types, Version=14.0.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91, processorArchitecture=MSIL">
+      <HintPath>packages\Microsoft.SqlServer.Types.14.0.314.76\lib\net40\Microsoft.SqlServer.Types.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Clients.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Clients.Designer.cs">
+      <DependentUpon>Clients.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ClientsBase.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ClientsBase.Designer.cs">
+      <DependentUpon>ClientsBase.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ClientsDirectory.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ClientsDirectory.Designer.cs">
+      <DependentUpon>ClientsDirectory.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ComboBoxCheckValue.cs" />
+    <Compile Include="DataChecker.cs" />
+    <Compile Include="DataTableActions.cs" />
+    <Compile Include="Hotels.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Hotels.Designer.cs">
+      <DependentUpon>Hotels.cs</DependentUpon>
+    </Compile>
+    <Compile Include="HotelsDirectory.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="HotelsDirectory.Designer.cs">
+      <DependentUpon>HotelsDirectory.cs</DependentUpon>
+    </Compile>
+    <Compile Include="HotelsFromCountry.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="HotelsFromCountry.Designer.cs">
+      <DependentUpon>HotelsFromCountry.cs</DependentUpon>
+    </Compile>
+    <Compile Include="MainForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MainForm.Designer.cs">
+      <DependentUpon>MainForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="NotBadHotels.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="NotBadHotels.Designer.cs">
+      <DependentUpon>NotBadHotels.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ProfitPerMonth.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ProfitPerMonth.Designer.cs">
+      <DependentUpon>ProfitPerMonth.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Recoverer.cs" />
+    <Compile Include="ResultsOfEnterprise.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ResultsOfEnterprise.Designer.cs">
+      <DependentUpon>ResultsOfEnterprise.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Sales.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Sales.Designer.cs">
+      <DependentUpon>Sales.cs</DependentUpon>
+    </Compile>
+    <Compile Include="SalesListPerYearAndMonthForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SalesListPerYearAndMonthForm.Designer.cs">
+      <DependentUpon>SalesListPerYearAndMonthForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="SalesWithMoreThenAverageCost.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SalesWithMoreThenAverageCost.Designer.cs">
+      <DependentUpon>SalesWithMoreThenAverageCost.cs</DependentUpon>
+    </Compile>
+    <Compile Include="SalesWithNotStartedTours.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SalesWithNotStartedTours.Designer.cs">
+      <DependentUpon>SalesWithNotStartedTours.cs</DependentUpon>
+    </Compile>
+    <Compile Include="SqlServerTypes\Loader.cs" />
+    <Compile Include="Order.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Order.Designer.cs">
+      <DependentUpon>Order.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Tours.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Tours.Designer.cs">
+      <DependentUpon>Tours.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ToursDirectory.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ToursDirectory.Designer.cs">
+      <DependentUpon>ToursDirectory.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ToursListPerHotelName.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ToursListPerHotelName.Designer.cs">
+      <DependentUpon>ToursListPerHotelName.cs</DependentUpon>
+    </Compile>
+    <Compile Include="TravelAgencyDataSet.cs">
+      <DependentUpon>TravelAgencyDataSet.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="TravelAgencyDataSet.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>TravelAgencyDataSet.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="TravelAgents.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="TravelAgents.Designer.cs">
+      <DependentUpon>TravelAgents.cs</DependentUpon>
+    </Compile>
+    <Compile Include="TravelAgentsDirectory.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="TravelAgentsDirectory.Designer.cs">
+      <DependentUpon>TravelAgentsDirectory.cs</DependentUpon>
+    </Compile>
+    <Compile Include="TravelAgentsListWithMaxSalesCountPerMonth.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="TravelAgentsListWithMaxSalesCountPerMonth.Designer.cs">
+      <DependentUpon>TravelAgentsListWithMaxSalesCountPerMonth.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UnfinishedTours.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UnfinishedTours.Designer.cs">
+      <DependentUpon>UnfinishedTours.cs</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="Clients.resx">
+      <DependentUpon>Clients.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ClientsBase.resx">
+      <DependentUpon>ClientsBase.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ClientsDirectory.resx">
+      <DependentUpon>ClientsDirectory.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Hotels.resx">
+      <DependentUpon>Hotels.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="HotelsDirectory.resx">
+      <DependentUpon>HotelsDirectory.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="HotelsFromCountry.resx">
+      <DependentUpon>HotelsFromCountry.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MainForm.resx">
+      <DependentUpon>MainForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="NotBadHotels.resx">
+      <DependentUpon>NotBadHotels.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ProfitPerMonth.resx">
+      <DependentUpon>ProfitPerMonth.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="ClientBase.rdlc" />
+    <EmbeddedResource Include="ReportResultOfEnterprice.rdlc" />
+    <EmbeddedResource Include="ResultsOfEnterprise.resx">
+      <DependentUpon>ResultsOfEnterprise.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Sales.resx">
+      <DependentUpon>Sales.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SalesListPerYearAndMonthForm.resx">
+      <DependentUpon>SalesListPerYearAndMonthForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SalesWithMoreThenAverageCost.resx">
+      <DependentUpon>SalesWithMoreThenAverageCost.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SalesWithNotStartedTours.resx">
+      <DependentUpon>SalesWithNotStartedTours.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Order.resx">
+      <DependentUpon>Order.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="OrderInfo.rdlc" />
+    <EmbeddedResource Include="Tours.resx">
+      <DependentUpon>Tours.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ToursDirectory.resx">
+      <DependentUpon>ToursDirectory.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ToursListPerHotelName.resx">
+      <DependentUpon>ToursListPerHotelName.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="TravelAgents.resx">
+      <DependentUpon>TravelAgents.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="TravelAgentsDirectory.resx">
+      <DependentUpon>TravelAgentsDirectory.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="TravelAgentsListWithMaxSalesCountPerMonth.resx">
+      <DependentUpon>TravelAgentsListWithMaxSalesCountPerMonth.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UnfinishedTours.resx">
+      <DependentUpon>UnfinishedTours.cs</DependentUpon>
+    </EmbeddedResource>
+    <None Include="ClassDiagram1.cd" />
+    <None Include="packages.config" />
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+    <None Include="TravelAgencyDataSet.xsc">
+      <DependentUpon>TravelAgencyDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="TravelAgencyDataSet.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>TravelAgencyDataSet.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="TravelAgencyDataSet.xss">
+      <DependentUpon>TravelAgencyDataSet.xsd</DependentUpon>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="SqlServerTypes\readme.htm" />
+    <Content Include="SqlServerTypes\x64\msvcr120.dll">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="SqlServerTypes\x64\SqlServerSpatial140.dll">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="SqlServerTypes\x86\msvcr120.dll">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="SqlServerTypes\x86\SqlServerSpatial140.dll">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>
