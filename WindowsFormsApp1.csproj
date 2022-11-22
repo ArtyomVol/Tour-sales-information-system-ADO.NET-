@@ -52,119 +52,119 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Clients.cs">
+    <Compile Include="Forms\Clients.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Clients.Designer.cs">
+    <Compile Include="Forms\Clients.Designer.cs">
       <DependentUpon>Clients.cs</DependentUpon>
     </Compile>
-    <Compile Include="ClientsBase.cs">
+    <Compile Include="Forms\Special\ClientsBase.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="ClientsBase.Designer.cs">
+    <Compile Include="Forms\Special\ClientsBase.Designer.cs">
       <DependentUpon>ClientsBase.cs</DependentUpon>
     </Compile>
-    <Compile Include="ClientsDirectory.cs">
+    <Compile Include="Forms\Directories\ClientsDirectory.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="ClientsDirectory.Designer.cs">
+    <Compile Include="Forms\Directories\ClientsDirectory.Designer.cs">
       <DependentUpon>ClientsDirectory.cs</DependentUpon>
     </Compile>
-    <Compile Include="ComboBoxCheckValue.cs" />
-    <Compile Include="DataChecker.cs" />
-    <Compile Include="DataTableActions.cs" />
-    <Compile Include="Hotels.cs">
+    <Compile Include="Model\ComboBoxCheckValue.cs" />
+    <Compile Include="Model\DataChecker.cs" />
+    <Compile Include="Model\DataTableActions.cs" />
+    <Compile Include="Forms\Hotels.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Hotels.Designer.cs">
+    <Compile Include="Forms\Hotels.Designer.cs">
       <DependentUpon>Hotels.cs</DependentUpon>
     </Compile>
-    <Compile Include="HotelsDirectory.cs">
+    <Compile Include="Forms\Directories\HotelsDirectory.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="HotelsDirectory.Designer.cs">
+    <Compile Include="Forms\Directories\HotelsDirectory.Designer.cs">
       <DependentUpon>HotelsDirectory.cs</DependentUpon>
     </Compile>
-    <Compile Include="HotelsFromCountry.cs">
+    <Compile Include="Forms\Special\HotelsFromCountry.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="HotelsFromCountry.Designer.cs">
+    <Compile Include="Forms\Special\HotelsFromCountry.Designer.cs">
       <DependentUpon>HotelsFromCountry.cs</DependentUpon>
     </Compile>
-    <Compile Include="MainForm.cs">
+    <Compile Include="Forms\MainForm.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="MainForm.Designer.cs">
+    <Compile Include="Forms\MainForm.Designer.cs">
       <DependentUpon>MainForm.cs</DependentUpon>
     </Compile>
-    <Compile Include="NotBadHotels.cs">
+    <Compile Include="Forms\Special\NotBadHotels.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="NotBadHotels.Designer.cs">
+    <Compile Include="Forms\Special\NotBadHotels.Designer.cs">
       <DependentUpon>NotBadHotels.cs</DependentUpon>
     </Compile>
-    <Compile Include="ProfitPerMonth.cs">
+    <Compile Include="Forms\Special\ProfitPerMonth.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="ProfitPerMonth.Designer.cs">
+    <Compile Include="Forms\Special\ProfitPerMonth.Designer.cs">
       <DependentUpon>ProfitPerMonth.cs</DependentUpon>
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="Recoverer.cs" />
-    <Compile Include="ResultsOfEnterprise.cs">
+    <Compile Include="Model\Recoverer.cs" />
+    <Compile Include="Forms\Special\ResultsOfEnterprise.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="ResultsOfEnterprise.Designer.cs">
+    <Compile Include="Forms\Special\ResultsOfEnterprise.Designer.cs">
       <DependentUpon>ResultsOfEnterprise.cs</DependentUpon>
     </Compile>
-    <Compile Include="Sales.cs">
+    <Compile Include="Forms\Sales.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Sales.Designer.cs">
+    <Compile Include="Forms\Sales.Designer.cs">
       <DependentUpon>Sales.cs</DependentUpon>
     </Compile>
-    <Compile Include="SalesListPerYearAndMonthForm.cs">
+    <Compile Include="Forms\Special\SalesListPerYearAndMonthForm.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="SalesListPerYearAndMonthForm.Designer.cs">
+    <Compile Include="Forms\Special\SalesListPerYearAndMonthForm.Designer.cs">
       <DependentUpon>SalesListPerYearAndMonthForm.cs</DependentUpon>
     </Compile>
-    <Compile Include="SalesWithMoreThenAverageCost.cs">
+    <Compile Include="Forms\Special\SalesWithMoreThenAverageCost.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="SalesWithMoreThenAverageCost.Designer.cs">
+    <Compile Include="Forms\Special\SalesWithMoreThenAverageCost.Designer.cs">
       <DependentUpon>SalesWithMoreThenAverageCost.cs</DependentUpon>
     </Compile>
-    <Compile Include="SalesWithNotStartedTours.cs">
+    <Compile Include="Forms\Special\SalesWithNotStartedTours.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="SalesWithNotStartedTours.Designer.cs">
+    <Compile Include="Forms\Special\SalesWithNotStartedTours.Designer.cs">
       <DependentUpon>SalesWithNotStartedTours.cs</DependentUpon>
     </Compile>
     <Compile Include="SqlServerTypes\Loader.cs" />
-    <Compile Include="Order.cs">
+    <Compile Include="Forms\Special\Order.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Order.Designer.cs">
+    <Compile Include="Forms\Special\Order.Designer.cs">
       <DependentUpon>Order.cs</DependentUpon>
     </Compile>
-    <Compile Include="Tours.cs">
+    <Compile Include="Forms\Tours.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Tours.Designer.cs">
+    <Compile Include="Forms\Tours.Designer.cs">
       <DependentUpon>Tours.cs</DependentUpon>
     </Compile>
-    <Compile Include="ToursDirectory.cs">
+    <Compile Include="Forms\Directories\ToursDirectory.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="ToursDirectory.Designer.cs">
+    <Compile Include="Forms\Directories\ToursDirectory.Designer.cs">
       <DependentUpon>ToursDirectory.cs</DependentUpon>
     </Compile>
-    <Compile Include="ToursListPerHotelName.cs">
+    <Compile Include="Forms\Special\ToursListPerHotelName.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="ToursListPerHotelName.Designer.cs">
+    <Compile Include="Forms\Special\ToursListPerHotelName.Designer.cs">
       <DependentUpon>ToursListPerHotelName.cs</DependentUpon>
     </Compile>
     <Compile Include="TravelAgencyDataSet.cs">
@@ -175,55 +175,55 @@
       <DesignTime>True</DesignTime>
       <DependentUpon>TravelAgencyDataSet.xsd</DependentUpon>
     </Compile>
-    <Compile Include="TravelAgents.cs">
+    <Compile Include="Forms\TravelAgents.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="TravelAgents.Designer.cs">
+    <Compile Include="Forms\TravelAgents.Designer.cs">
       <DependentUpon>TravelAgents.cs</DependentUpon>
     </Compile>
-    <Compile Include="TravelAgentsDirectory.cs">
+    <Compile Include="Forms\Directories\TravelAgentsDirectory.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="TravelAgentsDirectory.Designer.cs">
+    <Compile Include="Forms\Directories\TravelAgentsDirectory.Designer.cs">
       <DependentUpon>TravelAgentsDirectory.cs</DependentUpon>
     </Compile>
-    <Compile Include="TravelAgentsListWithMaxSalesCountPerMonth.cs">
+    <Compile Include="Forms\Special\TravelAgentsListWithMaxSalesCountPerMonth.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="TravelAgentsListWithMaxSalesCountPerMonth.Designer.cs">
+    <Compile Include="Forms\Special\TravelAgentsListWithMaxSalesCountPerMonth.Designer.cs">
       <DependentUpon>TravelAgentsListWithMaxSalesCountPerMonth.cs</DependentUpon>
     </Compile>
-    <Compile Include="UnfinishedTours.cs">
+    <Compile Include="Forms\Special\UnfinishedTours.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="UnfinishedTours.Designer.cs">
+    <Compile Include="Forms\Special\UnfinishedTours.Designer.cs">
       <DependentUpon>UnfinishedTours.cs</DependentUpon>
     </Compile>
-    <EmbeddedResource Include="Clients.resx">
+    <EmbeddedResource Include="Forms\Clients.resx">
       <DependentUpon>Clients.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="ClientsBase.resx">
+    <EmbeddedResource Include="Forms\Special\ClientsBase.resx">
       <DependentUpon>ClientsBase.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="ClientsDirectory.resx">
+    <EmbeddedResource Include="Forms\Directories\ClientsDirectory.resx">
       <DependentUpon>ClientsDirectory.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Hotels.resx">
+    <EmbeddedResource Include="Forms\Hotels.resx">
       <DependentUpon>Hotels.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="HotelsDirectory.resx">
+    <EmbeddedResource Include="Forms\Directories\HotelsDirectory.resx">
       <DependentUpon>HotelsDirectory.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="HotelsFromCountry.resx">
+    <EmbeddedResource Include="Forms\Special\HotelsFromCountry.resx">
       <DependentUpon>HotelsFromCountry.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="MainForm.resx">
+    <EmbeddedResource Include="Forms\MainForm.resx">
       <DependentUpon>MainForm.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="NotBadHotels.resx">
+    <EmbeddedResource Include="Forms\Special\NotBadHotels.resx">
       <DependentUpon>NotBadHotels.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="ProfitPerMonth.resx">
+    <EmbeddedResource Include="Forms\Special\ProfitPerMonth.resx">
       <DependentUpon>ProfitPerMonth.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
@@ -237,44 +237,44 @@
     </Compile>
     <EmbeddedResource Include="ClientBase.rdlc" />
     <EmbeddedResource Include="ReportResultOfEnterprice.rdlc" />
-    <EmbeddedResource Include="ResultsOfEnterprise.resx">
+    <EmbeddedResource Include="Forms\Special\ResultsOfEnterprise.resx">
       <DependentUpon>ResultsOfEnterprise.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Sales.resx">
+    <EmbeddedResource Include="Forms\Sales.resx">
       <DependentUpon>Sales.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="SalesListPerYearAndMonthForm.resx">
+    <EmbeddedResource Include="Forms\Special\SalesListPerYearAndMonthForm.resx">
       <DependentUpon>SalesListPerYearAndMonthForm.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="SalesWithMoreThenAverageCost.resx">
+    <EmbeddedResource Include="Forms\Special\SalesWithMoreThenAverageCost.resx">
       <DependentUpon>SalesWithMoreThenAverageCost.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="SalesWithNotStartedTours.resx">
+    <EmbeddedResource Include="Forms\Special\SalesWithNotStartedTours.resx">
       <DependentUpon>SalesWithNotStartedTours.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Order.resx">
+    <EmbeddedResource Include="Forms\Special\Order.resx">
       <DependentUpon>Order.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="OrderInfo.rdlc" />
-    <EmbeddedResource Include="Tours.resx">
+    <EmbeddedResource Include="Forms\Tours.resx">
       <DependentUpon>Tours.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="ToursDirectory.resx">
+    <EmbeddedResource Include="Forms\Directories\ToursDirectory.resx">
       <DependentUpon>ToursDirectory.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="ToursListPerHotelName.resx">
+    <EmbeddedResource Include="Forms\Special\ToursListPerHotelName.resx">
       <DependentUpon>ToursListPerHotelName.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="TravelAgents.resx">
+    <EmbeddedResource Include="Forms\TravelAgents.resx">
       <DependentUpon>TravelAgents.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="TravelAgentsDirectory.resx">
+    <EmbeddedResource Include="Forms\Directories\TravelAgentsDirectory.resx">
       <DependentUpon>TravelAgentsDirectory.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="TravelAgentsListWithMaxSalesCountPerMonth.resx">
+    <EmbeddedResource Include="Forms\Special\TravelAgentsListWithMaxSalesCountPerMonth.resx">
       <DependentUpon>TravelAgentsListWithMaxSalesCountPerMonth.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="UnfinishedTours.resx">
+    <EmbeddedResource Include="Forms\Special\UnfinishedTours.resx">
       <DependentUpon>UnfinishedTours.cs</DependentUpon>
     </EmbeddedResource>
     <None Include="ClassDiagram1.cd" />
